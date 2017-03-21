@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
     建议买几十个，实际生产建议100+，微博反爬得厉害，太频繁了会出现302转移。
 """
 myWeiBo = [
-    ('1393223041@qq.com', 'jsy1314'),
+    ('account', 'password'),
 ]
 
 
