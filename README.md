@@ -7,6 +7,7 @@ Sinaweibo scrapy, get url, contents and reviews.
 2.数据存储在weibodata.txt，包括：序号、网址、正文及评论，如：
 
 '''
+
 1.***URL:http://weibo.cn/comment/D7BXruIn1?rl=1
 
 Content:
@@ -38,6 +39,6 @@ b)使用redis存储爬取的网址queue.py；
 
 c)使用redis查重，防止相同ID多次爬取dupefilter.py；
 
-d)从初始http://weibo.cn/ID/profile开始爬取，得到微博评论网址，抓取数据；并且通过获得粉丝及关注的人ID，扩大爬虫范围。
+d)从初始 http://weibo.cn/ID/profile 开始爬取，得到微博评论网址，抓取数据；并且通过获得粉丝及关注的人ID，扩大爬虫范围。
 
 部分数据在weibodata.txt展示。
